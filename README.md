@@ -57,7 +57,8 @@ The `clean_reads` folder contains the clean reverse and forward reads of the sam
 
 The abundance of each ARG type or subtype was calculated as the sum of all reads classified within the same category, normalized to the ARG reference sequence length and the estimated number of prokaryotic cells (see [(Yin et al., 2023)](https://doi.org/10.1016/j.eng.2022.10.011)):
 
-![Equation](https://latex.codecogs.com/svg.latex?\color[HTML]{B0B0B0}\displaystyle\text{Overall}=\frac{\sum_{i=1}^{n}N_i^{cell}\times\text{Abundance}_i}{\sum_{i=1}^{n}N_i^{cell}})
+![Equation](<https://latex.codecogs.com/svg.latex?{\color[rgb]{0.690,0.690,0.690}\displaystyle\text{Overall}=\frac{\sum_{i=1}^{n}N_{i}^{\text{cell}}\times\text{Abundance}_{i}}{\sum_{i=1}^{n}N_{i}^{\text{cell}}}}>)
+
 ![Equation](https://latex.codecogs.com/svg.latex?\color{white}\text{Overall}=\frac{\sum_{i=1}^{n}N_i^{cell}\times\text{Abundance}_i}{\sum_{i=1}^{n}N_i^{cell}})
 ![Equation](https://latex.codecogs.com/svg.latex?\color{grey}\text{Overall}=\frac{\sum_{i=1}^{n}N_i^{cell}\times\text{Abundance}_i}{\sum_{i=1}^{n}N_i^{cell}})
 
