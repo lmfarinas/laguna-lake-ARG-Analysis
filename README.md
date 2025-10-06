@@ -3,7 +3,7 @@ Laguna Lake, the Philippines’ largest freshwater lake, harbors antibiotic-resi
 
 ## documentation files
 - [ARG-Quantification-Workflow.md](ARG-Quantification-Workflow.md) : Quantifies ARGs at type and subtype level, and generates a heatmap and a stacked bar chart.
-- `ARC-Profiling-Workflow.md` : Analyzes mobility of ARGs based on the mobility characteristics (plasmid and MGE association) of the contigs that contain them.
+- [ARC-Profiling-Workflow.md](ARC-Profiling-Workflow.md) : Analyzes mobility of ARGs based on the mobility characteristics (plasmid and MGE association) of the contigs that contain them.
 ## data availability
 Currently, the data associated with this analysis is not yet uploaded to any public repository.
 ## contents
