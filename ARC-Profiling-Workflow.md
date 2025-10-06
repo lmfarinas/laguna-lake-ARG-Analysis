@@ -254,7 +254,7 @@ Plasmid-association for the identified ARCs was predicted using **PlasFlow (Gala
 ### Query for MGEs
 DIAMOND alignment with the [MobileOG database v2.0.1-90 (pre-release)](https://zenodo.org/records/14725479) was performed to identify ARCs that harbor MGE-associated genes. These ARCs were classified as mobile ARCs.
 
-Download the mobileOG database into the `databases` folder then convert to DIAMOND format:
+Download the mobileOG database into the `databases/` folder then convert to DIAMOND format:
 
 ```{bash, eval=FALSE}
 diamond makedb --in "databases/mobileOG/mobileOGdb_90-2.0.fasta" -d "databases/mobileOG/mobileOGdb_90-2.0"
