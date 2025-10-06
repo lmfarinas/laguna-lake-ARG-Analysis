@@ -756,4 +756,4 @@ addDataFrame(as.data.frame(MGE_combined), sheet5, row.names = FALSE, col.names =
 saveWorkbook(ARC_profiling_wb, "ARC_profiling_tables.xlsx")
 ```
 
-The tables are in `ARC_profiling_tables.xlsx`.
+The tables are in `tables/ARC_profiling_tables.xlsx`.
