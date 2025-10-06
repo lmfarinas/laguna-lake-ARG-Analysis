@@ -326,4 +326,4 @@ addDataFrame(ARG_subtype_df, sheet2, row.names = FALSE, col.names = TRUE)
 saveWorkbook(ARG_abundance_wb, "ARG_abundance_tables.xlsx")
 ```
 
-The abundance tables are in *ARG_abundance_tables.xlsx*.
+The abundance tables are in *tables/ARG_abundance_tables.xlsx*.
