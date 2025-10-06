@@ -57,22 +57,19 @@ The `clean_reads` folder contains the clean reverse and forward reads of the sam
 
 The abundance of each ARG type or subtype was calculated as the sum of all reads classified within the same category, normalized to the ARG reference sequence length and the estimated number of prokaryotic cells (see [(Yin et al., 2023)](https://doi.org/10.1016/j.eng.2022.10.011)):
 
-![Equation](<https://latex.codecogs.com/svg.latex?{\color[rgb]{0.690,0.690,0.690}\displaystyle\text{Overall}=\frac{\sum_{i=1}^{n}N_{i}^{\text{cell}}\times\text{Abundance}_{i}}{\sum_{i=1}^{n}N_{i}^{\text{cell}}}}>)
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?{\color[rgb]{0.5,0.5,0.5}\displaystyle\text{Abundance}=\sum_{i=1}^{n}\left(k\times\frac{Ni_{\text{mappedreads}}\times{L_{\text{reads}}/L_{\text{ARGreferencesequence}}}}{N_{\text{cell}}}\right)}" />
+</p>
 
-![Equation](https://latex.codecogs.com/svg.latex?\color{white}\text{Overall}=\frac{\sum_{i=1}^{n}N_i^{cell}\times\text{Abundance}_i}{\sum_{i=1}^{n}N_i^{cell}})
-![Equation](https://latex.codecogs.com/svg.latex?\color{grey}\text{Overall}=\frac{\sum_{i=1}^{n}N_i^{cell}\times\text{Abundance}_i}{\sum_{i=1}^{n}N_i^{cell}})
-
-$$
-\text{Abundance}=\sum_{i=1}^{n}\left(k\times\frac{Ni_\text{mapped reads}\times L_\text{reads}/L_\text{ARG reference sequence }}{N_\text{cell}}\right)
-$$
 where $n$ is the number of ARGs belonging to the same category, $Ni_\text{mapped reads}$ is the number of reads mapped to an ARG, $L_\text{reads}$ is the length of the reads, $L_\text{ARG reference sequence}$ is the length of the reference ARG sequence, and  $N_\text{cell}$ is the cell number for each sample as calculated in stage one of the ARGs-OAP pipeline. The correction factor $k$ was introduced in v3.0 to account for ARG subtypes that utilize two- or three-component systems to encode functional resistance.
 
 Additionally, the overall abundance of an ARG type was calculated as follows:
 
-$$
-\text{Overall}=\frac{\sum_{i=1}^{n} Ni_\text{cell}\times\text{Abundance}i}{\sum_{i=1}^{n}Ni_\text{cell}}
-$$
-where Overall is the overall abundance of an ARG type or subtype across all samples, $Ni_\text{cell}$ is the cell number of a sample, and $\text{Abundance}i$ is the Abundance of an ARG type or subtype in the sample.
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?{\color[rgb]{0.5,0.5,0.5}\displaystyle\text{Overall}=\frac{\sum_{i=1}^{n}Ni_{\text{cell}}\times\text{Abundance}i}{\sum_{i=1}^{n}Ni_{\text{cell}}}}" />
+</p>
+
+where $\text{Overall}$ is the overall abundance of an ARG type or subtype across all samples, $Ni_\text{cell}$ is the cell number of a sample, and $\text{Abundance}i$ is the Abundance of an ARG type or subtype in the sample.
 
 ## ARG Profiling by type
 
