@@ -1,0 +1,7 @@
+sample	file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	N50_num	Q20(%)	Q30(%)	AvgQual	GC(%)	sum_n
+AUGLS01_ARCs	ARC_fasta/AUGLS01_ARCs.fasta  FASTA   DNA         42   45,529      509    1,084    7,643  607  685  914        0  1,047        9       0       0        0  56.45      0
+AUGLS05_ARCs	ARC_fasta/AUGLS05_ARCs.fasta  FASTA   DNA         37   45,413      519  1,227.4    5,985  611  769  1,349        0  1,461        9       0       0        0  56.74      0
+AUGLS16_ARCs	ARC_fasta/AUGLS16_ARCs.fasta  FASTA   DNA         34   44,529      508  1,309.7    5,985  623  876.5  1,097        0  1,579        6       0       0        0  56.23      0
+SEPLS01_ARCs	ARC_fasta/SEPLS01_ARCs.fasta  FASTA   DNA         12   23,805      517  1,983.8    5,985  645.5  712.5  3,270.5        0  5,966        2       0       0        0  52.17      0
+SEPLS05_ARCs	ARC_fasta/SEPLS05_ARCs.fasta  FASTA   DNA         39   45,812      503  1,174.7    8,265  579.5  703  1,084        0  1,362        8       0       0        0  54.88      0
+SEPLS16_ARCs	ARC_fasta/SEPLS16_ARCs.fasta  FASTA   DNA         33   42,390      507  1,284.5    5,985  606  767  983        0  1,949        5       0       0        0  55.24      0
