@@ -124,7 +124,7 @@ ARG_type_transposed <- rownames_to_column(as.data.frame(t(ARG_type_df)), var = "
 
 The generated heatmap is as shown below:
 
-<img src="ARG_type_heatmap.png" width="600px" />
+<img src="figures/ARG_type_heatmap.png" width="600px" />
 
 ## ARG Profiling by subtype
 
@@ -302,7 +302,7 @@ ggplot(ARG_group_abundance, aes(x = Type, y = Relative_Abundance, fill = subtype
 
 The generated stacked bar chart is shown below:
 
-<img src="ARG_subtype_bars.png" width="600px" />
+<img src="figures/ARG_subtype_bars.png" width="600px" />
 
 To output the abundance tables for ARG types and subtypes, the following codes were used:
 
