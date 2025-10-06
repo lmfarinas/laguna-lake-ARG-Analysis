@@ -2,7 +2,7 @@
 Laguna Lake, the Philippines’ largest freshwater lake, harbors antibiotic-resistant bacteria, yet data on antibiotic resistance genes (ARGs) remain scarce. This repository serves as documentation of the data analysis of a metagenomic study investigating the diversity, prevalence, and mobility of ARGs in the lake’s West Bay.
 
 ## documentation files
-- `ARG-Quantification-Workflow.md` : Quantifies ARGs at type and subtype level, and generates a heatmap and a stacked bar chart.
+- [ARG-Quantification-Workflow.md](ARG-Quantification-Workflow.md) : Quantifies ARGs at type and subtype level, and generates a heatmap and a stacked bar chart.
 - `ARC-Profiling-Workflow.md` : Analyzes mobility of ARGs based on the mobility characteristics (plasmid and MGE association) of the contigs that contain them.
 ## data availability
 Currently, the data associated with this analysis is not yet uploaded to any public repository.
