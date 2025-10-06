@@ -1,0 +1,7 @@
+sample	file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	N50_num	Q20(%)	Q30(%)	AvgQual	GC(%)	sum_n
+AUGLS01_Contigs	contigs/AUGLS01_Contigs.fasta  FASTA   DNA   2,231,822  912,460,873       55    408.8  191,660  233  268  368        0  406    8,996       0       0        0  53.53      0
+AUGLS05_Contigs	contigs/AUGLS05_Contigs.fasta  FASTA   DNA   2,046,660  852,680,125       55    416.6  342,723  231  267  368        0  430    9,275       0       0        0  52.06      0
+AUGLS16_Contigs	contigs/AUGLS16_Contigs.fasta  FASTA   DNA   2,043,987  837,668,556       55    409.8  214,150  229  265  360        0  417    9,177       0       0        0   51.7      0
+SEPLS01_Contigs	contigs/SEPLS01_Contigs.fasta  FASTA   DNA   2,629,532  656,674,386       55    249.7   92,026  81  230  280        0  283    5,640       0       0        0  54.27      0
+SEPLS05_Contigs	contigs/SEPLS05_Contigs.fasta  FASTA   DNA   2,702,600  952,687,410       55    352.5   98,524  226  260  336        0  338    7,385       0       0        0  52.29      0
+SEPLS16_Contigs	contigs/SEPLS16_Contigs.fasta  FASTA   DNA   2,331,063  899,179,351       55    385.7  232,124  228  263  351        0  379    8,879       0       0        0  50.89      0
