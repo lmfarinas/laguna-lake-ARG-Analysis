@@ -1,0 +1,3 @@
+NODE_1360_length_8265_cov_34.153593_2	mobileOG_001797999|NZ_MT571488.1_65|IntI|integration/excision|NA|PLSDB|HC-pLLM	mobileOG_001797999|NZ_MT571488.1_65|IntI|integration/excision|NA|PLSDB|HC-pLLM 	99.7	286	1	0	1	286	263	548	1.13e-200	565
+NODE_1360_length_8265_cov_34.153593_3	mobileOG_000293140|rop_2|D6IIF4|replication/recombination/repair|initiation,copy	mobileOG_000293140|rop_2|D6IIF4|replication/recombination/repair|initiation,copy number control,plasmid|Plasmid RefSeq|Homology 	96.8	63	2	0	1	63	25	87	3.27e-36	121
+NODE_14678_length_2608_cov_3.112025_5	mobileOG_000542754|NA:Keyword|R5V8P5|phage|NA|GPD|Keyword	mobileOG_000542754|NA:Keyword|R5V8P5|phage|NA|GPD|Keyword Search 	73.6	53	14	0	1	53	142	194	4.06e-19	82.0

@@ -1,0 +1,6 @@
+NODE_1149_length_5985_cov_26.854469_2	mobileOG_000293140|rop_2|D6IIF4|replication/recombination/repair|initiation,copy	mobileOG_000293140|rop_2|D6IIF4|replication/recombination/repair|initiation,copy number control,plasmid|Plasmid RefSeq|Homology 	96.8	63	2	0	1	63	25	87	3.27e-36	121
+NODE_1149_length_5985_cov_26.854469_3	mobileOG_001797999|NZ_MT571488.1_65|IntI|integration/excision|NA|PLSDB|HC-pLLM	mobileOG_001797999|NZ_MT571488.1_65|IntI|integration/excision|NA|PLSDB|HC-pLLM 	99.7	286	1	0	1	286	263	548	1.13e-200	565
+NODE_1161_length_5966_cov_10.759093_3	mobileOG_000039493|insJ|WP_000042692.1|integration/excision|NA|COMPASS|Homology	mobileOG_000039493|insJ|WP_000042692.1|integration/excision|NA|COMPASS|Homology 	99.4	170	1	0	1	170	1	170	1.76e-115	330
+NODE_1161_length_5966_cov_10.759093_4	mobileOG_000055439	mobileOG_000055439 	98.8	165	2	0	1	165	1	165	1.09e-111	322
+NODE_1161_length_5966_cov_10.759093_5	mobileOG_001947546|NZ_CP047577.1_164|Tnp_IS1|integration/excision|NA|PLSDB|HC-pLLM	mobileOG_001947546|NZ_CP047577.1_164|Tnp_IS1|integration/excision|NA|PLSDB|HC-pLLM 	100	125	0	0	1	125	46	170	1.31e-87	257
+NODE_1161_length_5966_cov_10.759093_6	mobileOG_001941860|CP057917.1_90|Tnp_IS1|integration/excision|NA|PLSDB|HC-pLLM	mobileOG_001941860|CP057917.1_90|Tnp_IS1|integration/excision|NA|PLSDB|HC-pLLM 	100	91	0	0	1	91	1	91	1.05e-60	189
