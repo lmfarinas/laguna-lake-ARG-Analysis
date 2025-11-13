@@ -32,7 +32,7 @@ do
 done
 ```
 
-The cleaned reads and quality reports are located in the `clean_reads` folder.
+The cleaned reads and quality reports are located in the `clean_reads/` and `qc_report` folders, respectively.
 
 ## ARG quantification via ARGs-OAP
 
