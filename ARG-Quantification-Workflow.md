@@ -34,6 +34,29 @@ done
 
 The cleaned reads and quality reports are located in the `clean_reads/` and `qc_report` folders, respectively.
 
+Since `fastp` report does not include the average quality of reads, `Seqkit` was also used, and the statistics per sample are summarized into `clean_reads_stats.txt` follows:
+
+```bash
+clean_reads_stats="clean_reads_stats.txt"
+
+# Write header
+echo -e "sample\tfile\tformat\ttype\tnum_seqs\tsum_len\tmin_len\tavg_len\tmax_len\tQ1\tQ2\tQ3\tsum_gap\tN50\tN50_num\tQ20(%)\tQ30(%)\tAvgQual\tGC(%)\tsum_n" > "$clean_reads_stats"
+
+# Loop through all FASTQ.GZ files
+for fq in clean_reads/*.fastq.gz; do
+    # Extract filename only
+    fname=$(basename "$fq")
+
+    # Extract sample name before "_1_cleaned" or "_2_cleaned"
+    sample=$(echo "$fname" | sed -E 's/_([12])_cleaned\.fastq\.gz//')
+
+    # Run seqkit stats (tab-separated output)
+    seqkit stats -T -a "$fq" | tail -n +2 | while IFS=$'\t' read -r file format type num_seqs sum_len min_len avg_len max_len Q1 Q2 Q3 sum_gap N50 N50_num Q20 Q30 AvgQual GC sum_n; do 
+        echo -e "${sample}\t${file}\t${format}\t${type}\t${num_seqs}\t${sum_len}\t${min_len}\t${avg_len}\t${max_len}\t${Q1}\t${Q2}\t${Q3}\t${sum_gap}\t${N50}\t${N50_num}\t${Q20}\t${Q30}\t${AvgQual}\t${GC}\t${sum_n}" >> "$clean_reads_stats"
+    done
+done
+```
+
 ## ARG quantification via ARGs-OAP
 
 Antibiotic resistance genes (ARGs) were detected and quantified using **ARGs-OAP v3.2.4**.
