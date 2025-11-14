@@ -34,7 +34,7 @@ done
 
 The cleaned reads and quality reports are located in the `clean_reads/` and `qc_report` folders, respectively.
 
-Since `fastp` report does not include the average quality of reads, `Seqkit` was also used, and the statistics per sample are summarized into `clean_reads_stats.txt` follows:
+Since **Fastp** report does not include the average quality of reads, `Seqkit` was also used, and the statistics per sample are summarized into `clean_reads_stats.txt` follows:
 
 ```bash
 clean_reads_stats="clean_reads_stats.txt"
