@@ -151,7 +151,7 @@ The generated heatmap is as shown below:
 
 ## ARG Profiling by subtype
 
-For profiling by ARG subtype, we only considered relatively abundant ARG types (overall abundance > 0.009 cpc). Subtypes were also grouped arbitrarily prior to quantification, with groupings primarily based on [CARD](https://card.mcmaster.ca/) gene families. The data was visualized using a stacked bar chart. More details on these groupings can be found in the R script below.
+For profiling by ARG subtype, we only considered relatively abundant ARG types (overall abundance > 0.009 cpc). Subtypes were also grouped arbitrarily, with groupings primarily based on [CARD](https://card.mcmaster.ca/) gene families. The data was visualized using a stacked bar chart. More details on these groupings can be found in the R script below.
 
 ```r
 # ARG_subtype_bars.R
