@@ -757,3 +757,32 @@ saveWorkbook(ARC_profiling_wb, "ARC_profiling_tables.xlsx")
 ```
 
 The tables are in `tables/ARC_profiling_tables.xlsx`.
+
+## Coverage of Assemblies (Contigs $\geq 500$ bp)
+CoverM 0.7.0 was used to estimate genome coverage (command: `coverm genome`) with the bam files as input. The genome coverage was reported in the NCBI submission of the assemblies.
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+mkdir -p coverage
+
+for bam in BWA_output/*_500bpContigs_sorted.bam; do
+
+  # extract sample name
+  sample=$(basename "$bam" _500bpContigs_sorted.bam)
+
+  echo "Processing $sample..."
+
+  coverm genome \
+    --genome-fasta-files contigs_500bp/${sample}_Contigs_500bp.fasta \
+    --bam-files "$bam" \
+    --exclude-supplementary \
+    -t 6 \
+    -m mean relative_abundance covered_fraction \
+    -o coverage/${sample}_coverm.tsv
+
+done
+
+echo "All samples processed."
+```
+
